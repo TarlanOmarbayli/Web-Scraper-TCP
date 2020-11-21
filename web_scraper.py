@@ -22,7 +22,7 @@ class Server:
             conn, addr = sock.accept()
             print("Accepted a connection from ", addr)
             url_address = (conn.recv(MAX_BYTES)).decode('ascii')
-            data_to_send = "Number of images is " + str(self.image_count(url_address)) +"\n" + "Number of leaf paragrahs is " + str(self.leaf_count(url_address))
+            data_to_send = "The number of images is " + str(self.image_count(url_address)) +"\n" + "The number of leaf paragraphs is " + str(self.leaf_count(url_address))
             conn.sendall(data_to_send.encode('ascii'))
 
             print(f"Web page scrapped and results were sent to the client {conn.getpeername()}")
