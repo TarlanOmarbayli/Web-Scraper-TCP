@@ -7,7 +7,7 @@ There are two roles: client and server. The client sends the url address to the 
 ## Installation
 In terminal, enter:
 ```bash
-https://github.com/TarlanOmarbayli/Web-Scraper-TCP
+https://github.com/TarlanOmarbayli/Web_Scraper_TCP
 ```
 Then, install requirements by entering
 ```bash
