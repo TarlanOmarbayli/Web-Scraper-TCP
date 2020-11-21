@@ -19,6 +19,7 @@ In the Server terminal:
 python3 web_scrapper.py server
 ```
 Pressing ```Ctrl+C``` will stop the terminal
+
 In the Client terminal:
 ```bash
 python3 web_scrapper.py client {-p} {url address}
