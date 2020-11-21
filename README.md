@@ -2,7 +2,7 @@
 Client-server based web-scraping application that works on TCP.
 
 ## App description
-There are two roles: client and server. The sends the url address to the server, then the number of the images and the leaf paragraphs in the url (web page) are counted in the server part and sent to the client as a response.
+There are two roles: client and server. The client sends the url address to the server, then the number of the images and the leaf paragraphs in the url (web page) are counted in the server part and sent to the client as a response.
 
 ## Installation
 In terminal, enter:
