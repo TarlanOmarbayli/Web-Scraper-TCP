@@ -18,7 +18,7 @@ In the Server terminal:
 ```bash
 python3 web_scraper.py server
 ```
-Pressing ```Ctrl+C``` will stop the terminal
+Pressing ```Ctrl+C``` will stop the terminal.
 
 In the Client terminal:
 ```bash
@@ -28,4 +28,4 @@ Example: ```python3 web_scraper.py client -p www.pcworld.com```
 
 #### Note
 
-Pre-defined hostname is ```127.0.0.1``` and port number is ```4488```
+Pre-defined hostname is ```127.0.0.1``` and port number is ```4488```.
