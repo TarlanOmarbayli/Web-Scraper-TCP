@@ -77,7 +77,7 @@ def main():
     if args.role == 'server':
         Server(HOST, PORT).serve()
     elif args.role == 'client':
-        Client(HOST, PORT).start(args.p)
+        Client(HOST, PORT).start(args.p if "http://" in args.p or "https://" in args.p else f"https://{args.p}")
 
 if __name__ == "__main__":
     main()
