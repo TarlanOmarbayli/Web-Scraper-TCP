@@ -1,5 +1,5 @@
 # Web-Scrapper using TCP
-Client-server based web-scrapping application that works on TCP
+Client-server based web-scrapping application that works on TCP.
 
 ## App description
 There are two roles: client and server. The sends the url address to the server, then the number of the images and the leaf paragraphs in the url (web page) are counted in the server part and sent to the client as a response.
