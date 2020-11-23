@@ -31,11 +31,8 @@ class Server:
     def image_count(self, url_address):
         page = requests.get(url_address)
         soup = BeautifulSoup(page.content, 'html.parser')
-        img_count = 0
         images = soup.find_all('img')
-        for image in images:
-            img_count += 1
-        return img_count
+        return(len(images))
 
     def leaf_count(self, url_address):
         page = requests.get(url_address)
